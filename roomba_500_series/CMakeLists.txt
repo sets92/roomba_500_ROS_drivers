@@ -59,8 +59,8 @@ add_dependencies(roomba500_light_node roomba_500_series_generate_messages_cpp)
 
 add_executable(go_dock_server src/go_dock_server.cpp src/go_dock/go_dock.cpp)
 target_link_libraries(go_dock_server ${catkin_LIBRARIES})
-add_dependencies(go_dock_server roomba_500_series_generate_messages_cpp)
+add_dependencies(go_dock_server go_dock)
 
 add_executable(go_dock_client src/go_dock_client.cpp)
 target_link_libraries(go_dock_client ${catkin_LIBRARIES})
-add_dependencies(go_dock_client roomba_500_series_generate_messages_cpp)
+add_dependencies(go_dock_client roomba_500_series_generate_messages_cpp) 

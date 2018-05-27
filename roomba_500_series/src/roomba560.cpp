@@ -51,9 +51,9 @@
 #include <roomba_500_series/Song.h>			// song
 #include <roomba_500_series/PlaySong.h>		// play_song
 
-#include "roomba_500_series/OpenInterface.h"
+#include "roomba_500_series/open_interface.h"
 
-#include "roomba_500_series/GoDock.h"	// GoDock action
+#include "roomba_500_series/go_dock.h"	// GoDock action
 
 #include <string>
 

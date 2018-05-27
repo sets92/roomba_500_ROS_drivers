@@ -46,7 +46,7 @@
 #include <fstream>
 #include <stdexcept>
 
-#include "cereal_port/CerealPort.h"
+#include "cereal_port/cereal_port.h"
 
 //! Macro for throwing an exception with a message, passing args
 #define CEREAL_EXCEPT(except, msg, ...) \

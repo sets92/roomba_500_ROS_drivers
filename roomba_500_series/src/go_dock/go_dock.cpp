@@ -34,7 +34,7 @@
 *
 * Author: Gonçalo Cabrita on 11/10/2010
 *********************************************************************/
-#include "roomba_500_series/GoDock.h"
+#include "roomba_500_series/go_dock.h"
 
 GoDockAction::GoDockAction(std::string name) : as_(nh_, name, boost::bind(&GoDockAction::goalCallback, this, _1)) , action_name_(name)
 {

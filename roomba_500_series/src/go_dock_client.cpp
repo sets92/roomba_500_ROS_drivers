@@ -34,7 +34,7 @@
 *
 * Author: Gonçalo Cabrita on 11/10/2010
 *********************************************************************/
-#include <ros/ros.h>
+#include "ros/ros.h"
 #include <actionlib/client/simple_action_client.h>
 #include <roomba_500_series/GoDockAction.h>
 

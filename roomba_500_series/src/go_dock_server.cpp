@@ -34,7 +34,7 @@
 *
 * Author: Gonçalo Cabrita on 11/10/2010
 *********************************************************************/
-#include "roomba_500_series/GoDock.h"
+#include "roomba_500_series/go_dock.h"
 #include <string>
 
 int main(int argc, char** argv)

@@ -34,7 +34,7 @@
 *
 * Author: Gonçalo Cabrita on 11/10/2010
 *********************************************************************/
-#include <ros/ros.h>
+#include "ros/ros.h"
 #include <actionlib/server/simple_action_server.h>
 #include <tf/transform_broadcaster.h>
 #include <geometry_msgs/Twist.h>		// cmd_vel

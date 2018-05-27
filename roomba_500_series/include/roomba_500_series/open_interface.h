@@ -34,7 +34,7 @@
 *
 * Author: Gonçalo Cabrita on 19/05/2010
 *********************************************************************/
-#include "cereal_port/CerealPort.h"
+#include <cereal_port/cereal_port.h>
 
 // Packets sizes
 #define OI_PACKET_GROUP_0_SIZE						26
